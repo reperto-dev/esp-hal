@@ -109,7 +109,7 @@ esp32   = ["dep:esp32",   "xtensa", "xtensa-lx/spin", "xtensa-lx-rt/esp32"]
 # Target the ESP32-C2.
 esp32c2 = ["dep:esp32c2", "riscv",  "portable-atomic/unsafe-assume-single-core"]
 # Target the ESP32-C3.
-esp32c3 = ["dep:esp32c3", "riscv",  "portable-atomic/unsafe-assume-single-core", "esp-riscv-rt/rtc-ram"]
+esp32c3 = ["dep:esp32c3", "riscv",  "portable-atomic/critical-section", "esp-riscv-rt/rtc-ram"]
 # Target the ESP32-C6.
 esp32c6 = ["dep:esp32c6", "riscv",  "procmacros/has-lp-core", "esp-riscv-rt/rtc-ram"]
 # Target the ESP32-H2.

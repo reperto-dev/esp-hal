@@ -287,7 +287,7 @@ pub use self::pdma::*;
 use crate::{interrupt::InterruptHandler, soc::is_slice_in_dram, Mode};
 
 #[cfg(gdma)]
-mod gdma;
+pub mod gdma;
 #[cfg(pdma)]
 mod pdma;
 
